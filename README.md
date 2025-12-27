@@ -16,4 +16,4 @@ and outlet performance to support data-driven decision-making.
 - Average Rating
 
 ## Dashboard Preview
-![Dashboard Overview](Dashboard Overview.png)
+![Dashboard Overview](dashboard_overview.png)
