@@ -106,7 +106,7 @@ The Power BI dashboard visualizes the insights generated using SQL:
 
 **Dashboard Preview:**
 
-![Dashboard Preview](dashboard_preview.png)
+![Dashboard Preview](dashboard_overview.png)
 
 > *(Place a screenshot of your Power BI dashboard in the `images` folder in your repo as `dashboard_preview.png`)*
 
