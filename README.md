@@ -13,11 +13,11 @@ The workflow followed in this project is:
 
 To analyze Blinkit’s sales data and uncover insights related to:
 
-- Overall business performance  
-- Product-level trends  
-- Customer preferences  
-- Impact of outlet size, type, and location on sales  
-- Growth patterns over time  
+- Overall business performance
+- Product-level trends
+- Customer preferences
+- Impact of outlet size, type, and location on sales
+- Growth patterns over time
 
 The goal is to help stakeholders make data-driven decisions about inventory, outlet expansion, and product strategy.
 
@@ -25,16 +25,18 @@ The goal is to help stakeholders make data-driven decisions about inventory, out
 
 ## 🛠 Tools & Technologies
 
-- **SQL Server (SSMS)**
-  - Data cleaning  
-  - KPI calculations  
-  - Business queries  
-  - Conditional aggregation & subqueries  
+**SQL Server (SSMS)**
 
-- **Power BI**
-  - Interactive dashboards  
-  - Visual storytelling  
-  - KPI cards & charts  
+- Data cleaning  
+- KPI calculations  
+- Business queries  
+- Conditional aggregation & subqueries  
+
+**Power BI**
+
+- Interactive dashboards  
+- Visual storytelling  
+- KPI cards & charts  
 
 ---
 
@@ -51,6 +53,7 @@ Blinkit-PowerBI-Dashboard/
 │
 └── README.md
 
+
 ---
 
 ## 🗄 SQL Analysis
@@ -65,7 +68,6 @@ Key steps:
   - Average Sales  
   - Number of Items  
   - Average Rating  
-
 - Analyzed sales by:
   - Item Fat Content  
   - Item Type (Top 5 products)  
@@ -73,7 +75,6 @@ Key steps:
   - Outlet Type  
   - Outlet Location  
   - Outlet Establishment Year  
-
 - Concepts used:
   - `GROUP BY`, `CASE`, `SUM`, `AVG`, `COUNT`, `ROUND`
   - Subqueries for percentage calculations
@@ -88,20 +89,29 @@ All SQL queries are available in:
 
 The Power BI dashboard visualizes the insights generated using SQL:
 
-- KPI Cards:
-  - Total Sales  
-  - Average Sales  
-  - Number of Items  
-  - Average Rating  
+**KPI Cards:**
 
-- Visuals include:
-  - Sales by Item Type  
-  - Sales by Outlet Size & Type  
-  - Sales by Location Tier  
-  - Trend by Establishment Year  
-  - Fat Content comparison (Low Fat vs Regular)
+- Total Sales  
+- Average Sales  
+- Number of Items  
+- Average Rating  
+
+**Visuals include:**
+
+- Sales by Item Type  
+- Sales by Outlet Size & Type  
+- Sales by Location Tier  
+- Trend by Establishment Year  
+- Fat Content comparison (Low Fat vs Regular)  
+
+**Dashboard Preview:**
+
+![Dashboard Preview](dashboard_preview.png)
+
+> *(Place a screenshot of your Power BI dashboard in the `images` folder in your repo as `dashboard_preview.png`)*
 
 The dashboard allows users to:
+
 - Quickly understand performance  
 - Compare categories  
 - Identify high-performing outlets and products  
@@ -110,11 +120,11 @@ The dashboard allows users to:
 
 ## 🔍 Key Business Insights
 
-- Low Fat items contribute a significant share of total sales.
-- Medium-sized outlets generate the highest revenue contribution.
-- Certain outlet types outperform others in both revenue and ratings.
-- Newer outlets show competitive sales performance compared to older ones.
-- A small set of item types drives a large portion of total revenue.
+- Low Fat items contribute a significant share of total sales.  
+- Medium-sized outlets generate the highest revenue contribution.  
+- Certain outlet types outperform others in both revenue and ratings.  
+- Newer outlets show competitive sales performance compared to older ones.  
+- A small set of item types drives a large portion of total revenue.  
 
 ---
 
@@ -128,7 +138,5 @@ This project showcases my ability to:
 - Translate raw numbers into insights  
 - Build professional dashboards in Power BI  
 - Follow an end-to-end analytics workflow  
-
----
 
 📌 *This project is designed to reflect how real-world data analyst tasks are performed, making it suitable for fresher-level Data Analyst and Business Analyst roles.*
