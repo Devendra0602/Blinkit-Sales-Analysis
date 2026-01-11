@@ -42,7 +42,7 @@ The goal is to help stakeholders make data-driven decisions about inventory, out
 
 ## 📂 Repository Structure
 
-Blinkit-PowerBI-Dashboard/
+Blinkit-Sales-Analysis/
 │
 ├── data/
 │ └── blinkit_data.csv # Raw dataset
